@@ -3,7 +3,7 @@ node
   checkout scm
   stage('Build') 
   {
-    withMaven(maven: 'Maven') 
+    withMaven(maven: 'Maven3') 
     {
       if (isUnix()) 
       {
